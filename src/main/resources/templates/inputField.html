@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1000/xhtml">
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brac Bank Ltd.</title>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+	<!-- bg img -->
+	<div class="container">
+		<div class="row" style="position: fixed;">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<!-- background image -->
+				<div class="ff center" style="opacity: .1;">
+					<img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhQ2QsaxV0InOuMHOhBEx6Ba0bo81Xxcf_qw&usqp=CAU"
+						style="width: 20em; margin-left: 13em; margin-top: 82%; opacity: .5">
+				</div>
+			</div>
+			<div class="col-lg-4"></div>
+		</div>
+	</div>
+
+
+	<!-- <div class="container" style="background-color: beige;">
+			<div class="row">
+				<div class="col-lg-1">
+					<div>
+						<img src="https://media-exp1.licdn.com/dms/image/C510BAQFW_muf1Rj66Q/company-logo_200_200/0/1561036645611?e=2159024400&v=beta&t=xqCRMgTUR7dEt6kGE56x88FvH6V09z6GSw8c8rNIteg" style="width: 90%; border-radius: 3em; margin-top: 6%; margin-bottom: 9%;">
+					</div>
+				</div>
+				<div class="col-lg-11">
+					<div>
+						<h4 style="margin-top: 2%; color: #145A32">National Bank Ltd.</h4>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	<div class="container pl-0 pr-0">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="inputField.html" style="color: #145A32"><img
+				src="https://media-exp1.licdn.com/dms/image/C510BAQFW_muf1Rj66Q/company-logo_200_200/0/1561036645611?e=2159024400&v=beta&t=xqCRMgTUR7dEt6kGE56x88FvH6V09z6GSw8c8rNIteg"
+				style="width: 13%; border-radius: 3em;">&nbsp; National Bank
+				Ltd</a>
+
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle btn dropdown-toggle" href="#"
+					id="navbarDropdown" role="button" data-toggle="dropdown"
+					data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+						Account Name </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#" style="color: #229954">ATI
+							Ltd.</a> <a class="dropdown-item" href="#" style="color: #229954">Drug
+							International Ltd.</a> <a class="dropdown-item" href="#"
+							style="color: #229954">Keya Mart Ltd</a>
+					</div></li>
+
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle btn dropdown-toggle" href="#"
+					id="navbarDropdown" role="button" data-toggle="dropdown"
+					data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+						Bank Name </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#" style="color: #229954">Brac
+							Bank Limited</a> <a class="dropdown-item" href="#"
+							style="color: #229954">Islami Bank Limited</a> <a
+							class="dropdown-item" href="#" style="color: #229954">City
+							Bank Limited</a>
+					</div></li>
+
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle btn dropdown-toggle" href="#"
+					id="navbarDropdown" role="button" data-toggle="dropdown"
+					data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+						Branch Name </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#" style="color: #229954">Dhanmondi
+							Branch</a> <a class="dropdown-item" href="#" style="color: #229954">Gulshan
+							Branch</a> <a class="dropdown-item" href="#" style="color: #229954">Uttara
+							Branch</a>
+					</div></li>
+					</ul>
+
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search"
+					placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</nav>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2 pl-0" style="background-coor: beige;">
+				<table class="table table-hover">
+					<tbody>
+					<tr>
+						<td><a href="#input" onclick="load01()" style="color: #145A32; text-decoration: none; font-family: Muli,sans-serif;">input form</a></td>
+					</tr>
+					<tr>
+						<td><a href="#paid" onclick="load02()" style="color: #145A32; text-decoration: none; font-family: Muli,sans-serif;">Paid Records</a></td>
+					</tr>
+					<tr>
+						<td><a href="#fund" onclick="load03()" style="color: #145A32; text-decoration: none; font-family: Muli,sans-serif;">Fund</a></td>
+					</tr>
+					<tr>
+						<td><a href="#Cheque" onclick="load04()" style="color: #145A32; text-decoration: none; font-family: Muli,sans-serif;">Cheque Records</a></td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+
+
+			<!-- input content -->
+			<div id="input" class="col-lg-10" style="visibility: visible;">
+				<form th:action="@{add-cheque}" th:object="${cheque}" method="post">
+					<div>
+						<br>
+						<h5 style="text-align: center; color: seagreen; opacity: .9">Cheque Input Form</h5>
+					</div>
+					<div class="row" style="margin-top: 6%; margin-left: 5%">
+						<div class="col-lg-4">
+							<div>
+								<p style="color: gray">Pay To</p>
+								<input class="form-control form-control-lg" type="text" id="payTo" name="payTo" th:value="${payTo}">
+							</div>
+							<br>
+							<div>
+								<p style="color: gray">Acount No.</p>
+								<input class="form-control form-control-lg" type="text" id="accountNo" name="accountNo"
+									   th:value="${accountNo}">
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div>
+								<p style="color: gray">The Sum of Tk</p>
+								<input class="form-control form-control-lg" type="text" id="sumOfAmount"
+									   name="sumOfAmount" th:value="${sumOfAmount}">
+							</div>
+							<div style="margin-top: 9%;">
+								<p style="color: gray">Branch Name</p>
+								<input class="form-control form-control-lg" type="text" id="branchName" name="branchName"
+									   th:value="${branchName}">
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div>
+								<p style="color: gray">TK</p>
+								<input class="form-control form-control-lg" type="number" id="taka" name="taka" th:value="${taka}">
+							</div>
+						</div>
+					</div>
+					<br><br>
+					<button type="submit" class="btn btn-success" style="margin-left: 7%; opacity: .9">Save Info</button> </form>
+			</div>
+
+
+			<!-- input content -->
+
+			<!-- paid-records content -->
+			<div id="paid" class="col-lg-10" style="display: none;">
+				<div>
+					<br>
+					<h5 style="text-align: center; color: seagreen; opacity: .9">Paid Recordes Form</h5>
+				</div>
+				<br>
+				<table class="table table-hover bg-light" style="position: inherit; z-index: -1">
+					<thead>
+					<tr>
+						<th scope="col">Bank Name</th>
+						<th scope="col">Branch Name</th>
+						<th scope="col">Amount</th>
+					</tr>
+					</thead>
+					<tbody data-th-each="cheque : ${cheques}">
+					<tr>
+						<td th:text="${cheque.payTo}"></td>
+						<td th:text="${cheque.branchName}"></td>
+						<td th:text="${cheque.taka}"></td>
+					</tr>
+
+					</tbody>
+				</table>
+				<br><br>
+			</div>
+			<!-- paid-records content -->
+
+			<!-- fund page -->
+			<div id="fund" class="col-lg-10" style="display: none;">
+				<div>
+					<br>
+					<h5 style="text-align: center; color: seagreen; opacity: .9">Fund or Amount remains</h5>
+				</div>
+				<div>
+					<br>
+					<p style="text-align: center;">your current balance: </p>
+					<p th:text="${balance}" style="text-align: center;"></p>
+				</div>
+			</div>
+			<!-- fund page -->
+
+			<!-- Cheque records -->
+			<div id="Cheque" class="col-lg-10" style="display: none;">
+				<div>
+					<br>
+					<h5 style="text-align: center; color: seagreen; opacity: .9">Cheque Records</h5>
+				</div>
+				<br>
+				<table class="table table-hover bg-light" style="position: inherit; z-index: -1">
+					<thead>
+					<tr>
+						<th scope="col">Day Wise</th>
+						<th scope="col">Month Wise</th>
+						<th scope="col">Year Wise</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td th:text="${dayWizeCheque}"></td>
+						<td th:text="${monthWizeCheque}"></td>
+						<td th:text="${yearWizeCheque}"></td>
+					</tr>
+					</tbody>
+				</table>
+				<br><br><br><br><br><br>
+			</div>
+			<!-- Cheque records -->
+
+
+		</div>
+	</div>
+	<br><br>
+
+	<!-- footer -->
+	<footer class="container mt-5">
+		<div style="background-color: #52BE80">
+			<p style="color: white; text-align: center; padding-top: 1%; padding-bottom: 1%">@Created By - Edward</p>
+		</div>
+	</footer>
+
+
+	<!-- dropdown script -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- dropdown script -->
+	<script>
+		$(document).ready(function () {
+			$('.navbar .dropdown').hover(function () {
+				$(this).find('.dropdown-menu').first().stop(true, true).slideDown(90);
+			}, function () {
+				$(this).find('.dropdown-menu').first().stop(true, true).slideUp(105)
+			});
+		});
+	</script>
+
+	<!-- load -->
+	<script>
+
+		function load01() {
+			var x = document.getElementById("input");
+			if (x.style.visibility === "visible") {
+				x.style.display = "block";
+				$("#paid").hide();
+				$("#fund").hide();
+				$("#Cheque").hide();
+			}
+		}
+
+		function load02() {
+			var x = document.getElementById("paid");
+			if (x.style.display === "none") {
+				x.style.display = "block";
+				$("#input").hide();
+				$("#fund").hide();
+				$("#Cheque").hide();
+			}
+		}
+
+		function load03(){
+			var x = document.getElementById("fund");
+			if (x.style.display === "none"){
+				x.style.display = "block";
+				$("#input").hide();
+				$("#paid").hide();
+				$("#Cheque").hide();
+			}
+		}
+
+		function load04(){
+			var x = document.getElementById("Cheque");
+			if (x.style.display === "none"){
+				x.style.display = "block";
+				$("#input").hide();
+				$("#paid").hide();
+				$("#fund").hide();
+			}
+		}
+
+	</script>
+
+</body>
+</html>
